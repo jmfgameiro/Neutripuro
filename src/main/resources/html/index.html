@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html id="top">
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
@@ -8,35 +9,31 @@
 	</head>
 	<body>
 		<!-- NAVBAR -->
-		<div class="navbar-wrapper">
+		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="#top"><img src="/images/logo.jpg" class="navbar-logo" /></a>
-							<a class="navbar-brand" href="#top"><font class="name-black">Neutri</font><font class="name-green">puro</font></a>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse">
-							<ul class="nav navbar-nav">
-								<li><a href="#quemsomos">Quem somos</a></li>
-								<li><a href="#oquefazemos">O que fazemos</a></li>
-								<li><a href="#ondeestamos">Onde estamos</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#top"><img src="/images/logo.jpg" class="navbar-logo" /></a>
+					<a class="navbar-brand" href="#top"><font class="name-black">Neutri</font><font class="name-green">puro</font></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#quemsomos">Quem somos</a></li>
+						<li><a href="#oquefazemos">O que fazemos</a></li>
+						<li><a href="#ondeestamos">Onde estamos</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
+		</nav>
 		
 		
 		<!-- HOME -->
-		<header id="home" class="home">
+		<div id="home" class="home">
 			<div class="container">
 				<img src="/images/logo.jpg" class="logo" />
 				<span class="name"><font class="name-black">Neutri</font><font class="name-green">puro</font></span>
@@ -45,7 +42,7 @@
 					<iframe class="embed-responsive-item embed-video" src="https://www.youtube.com/embed/Zep4ZCyGuN4?rel=0"></iframe>
 				</div>
 			</div>
-		</header>
+		</div>
 		
 		
 		<!-- QUEM SOMOS -->
@@ -58,7 +55,7 @@
 				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
 			</div>
 		</div>
-		<hr class="featurette-divider">
+		<hr>
 		<!-- O QUE FAZEMOS -->
 		<div id="oquefazemos" class="container">
 			<div class="col-md-7 col-md-push-5">
@@ -69,9 +66,9 @@
 				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
 			</div>
 		</div>
-		<hr class="featurette-divider">
+		<hr>
 		<!-- ONDE ESTAMOS -->
-		<div id="ondeestamos" class="container">
+		<div id="ondeestamos" class="container featurette-last">
 			<div class="col-md-7">
 				<h2 class="featurette-heading">Onde estamos</h2>
 				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -80,19 +77,19 @@
 				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
 			</div>
 		</div>
-		<hr class="featurette-divider">
 		
 		<!-- FOOTER -->
-		<footer>
-			<p class="pull-right"><a href="#top">Inicio</a></p>
-			<p>&copy; 2015 Neutripuro.</p>
-		</footer>
+		<div class="info">
+			<p class="name">&copy; 2015 Neutripuro.</p>
+		</div>
 	</body>
 	<script type="text/javascript">
 		$( function() {
-			$( '#home, #quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() - 50 });
+			$( '#home' ).css({ height: $( window ).innerHeight() - 50 });
+			$( '#quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() });
 			$( window ).resize( function() {
-				$( '#home, #quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() - 50 });
+				$( '#home' ).css({ height: $( window ).innerHeight() - 50 });
+				$( '#quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() });
 			});
 		});
 	</script>
