@@ -28,6 +28,8 @@ body {
     align-items: center;
 	text-align: center;
 	color: #FFFFFF;
+	min-width: 260px;
+	min-height: 230px;
 	background-color: #90B438;
 }
 .home .name {
