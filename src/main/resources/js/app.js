@@ -1,9 +1,16 @@
+/**************************************************/
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/**************************************************/
 $( function() {
 	$( '#home' ).css({ height: $( window ).innerHeight() - 50 });
-	$( '#quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() });
+	//$( '#quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() });
 	$( window ).resize( function() {
 		$( '#home' ).css({ height: $( window ).innerHeight() - 50 });
-		$( '#quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() });
+		//$( '#quemsomos, #oquefazemos, #ondeestamos' ).css({ height: $( window ).innerHeight() });
 	});
 });
 
