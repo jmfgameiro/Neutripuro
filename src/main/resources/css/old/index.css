@@ -1,0 +1,107 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+	margin-top: 50px;
+}
+.name-black {
+	color: #000000;
+}
+.name-green {
+	color: #13A16F;
+}
+
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-logo {
+	width: 25px;
+	height: 25px;
+	margin-top: -3px;
+}
+
+
+/* HOME CONTENT
+-------------------------------------------------- */
+.home {
+	padding: 50px 0px;
+	display: flex;
+    align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	min-width: 260px;
+	min-height: 230px;
+	background-color: #90B438;
+}
+.home .name {
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+}
+.home .logo {
+	width: 100px;
+	height: 100px;
+}
+.home h1 {
+	font-size: 24px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.featurette {
+	display: flex;
+    align-items: center;
+}
+.featurette-heading {
+	margin-top: 60px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+.featurette-last {
+	margin-bottom: -30px;
+}
+#map-container {
+	width: 200px;
+	height: 200px;
+}
+
+
+/* FOOTER CONTENT
+-------------------------------------------------- */
+.info {
+	color: #FFFFFF;
+	background-color: #90B438;
+	text-align: center;
+	padding: 5px;
+}
+.info .name {
+	display: block;
+	margin-bottom: 0px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media( min-width: 768px ) {
+	.home .logo {
+		width: 200px;
+		height: 200px;
+	}
+	#map-container {
+		width: 400px;
+		height: 400px;
+	}
+	.carousel, .embed-responsive {
+		margin-top: 30px;
+	}
+	.featurette-heading {
+		margin-top: 90px;
+		font-size: 50px;
+	}
+}
+@media( min-width: 992px ) {
+	.carousel, .embed-responsive {
+		margin-top: 60px;
+	}
+}

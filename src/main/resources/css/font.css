@@ -1,0 +1,27 @@
+/***************************************************************************/
+/*                                                                         */
+/*            CSS File responsible for the text elements. Where            */
+/*            colors, sizes, among others are defined                      */
+/*                                                                         */
+/***************************************************************************/
+/* GLOBAL STYLES
+-------------------------------------------------- */
+.name-black {
+	color: #000000;
+}
+.name-green {
+	color: #13A16F;
+}
+.name {
+	display: block;
+	font-size: 60px;
+	font-weight: bold;
+}
+h1 {
+    margin-top: 10px;
+	font-size: 32px;
+}
+.font-link {
+    font-size: 24px;
+    color: white;
+}

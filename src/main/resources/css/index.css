@@ -1,29 +1,12 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-body {
-	margin-top: 50px;
-}
-.name-black {
-	color: #000000;
-}
-.name-green {
-	color: #13A16F;
-}
-
-
-/* NAVBAR
--------------------------------------------------- */
-.navbar-logo {
-	width: 25px;
-	height: 25px;
-	margin-top: -3px;
-}
-
+/***************************************************************************/
+/*                                                                         */
+/*            CSS File responsible for the water drop element.             */
+/*                                                                         */
+/***************************************************************************/
 
 /* HOME CONTENT
 -------------------------------------------------- */
 .home {
-	padding: 50px 0px;
 	display: flex;
     align-items: center;
 	text-align: center;
@@ -32,53 +15,47 @@ body {
 	min-height: 230px;
 	background-color: #90B438;
 }
-.home .name {
-	display: block;
-	font-size: 50px;
-	font-weight: bold;
+.home .homeDesktop {
+    display: none;
 }
+.home .homeMobile {
+    display: block;
+}
+
 .home .logo {
 	width: 100px;
 	height: 100px;
+	margin: auto;
 }
-.home h1 {
-	font-size: 24px;
+
+.home .content {
+    padding-top: 40px;
+}
+
+.home .contentLink {
+     padding-top: 100px;
+}
+.home .dropLink {
+    width: 17.5px;
+	height: 26.25px;
+}
+.home .link {
+    height: 50px;
+}
+.home .left {
+    float: right;
+}
+.home .right {
+    float: left;
 }
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-.featurette {
-	display: flex;
-    align-items: center;
-}
-.featurette-heading {
-	margin-top: 60px;
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-.featurette-last {
-	margin-bottom: -30px;
-}
-#map-container {
-	width: 200px;
-	height: 200px;
-}
-
-
-/* FOOTER CONTENT
--------------------------------------------------- */
-.info {
-	color: #FFFFFF;
-	background-color: #90B438;
-	text-align: center;
-	padding: 5px;
-}
-.info .name {
+.home .footer {
 	display: block;
+    margin-top: 10px;
 	margin-bottom: 0px;
 }
+
 
 
 /* RESPONSIVE CSS
@@ -88,20 +65,10 @@ body {
 		width: 200px;
 		height: 200px;
 	}
-	#map-container {
-		width: 400px;
-		height: 400px;
-	}
-	.carousel, .embed-responsive {
-		margin-top: 30px;
-	}
-	.featurette-heading {
-		margin-top: 90px;
-		font-size: 50px;
-	}
-}
-@media( min-width: 992px ) {
-	.carousel, .embed-responsive {
-		margin-top: 60px;
-	}
+    .home .homeDesktop {
+        display: block;
+    }
+    .home .homeMobile {
+        display: none;
+    }
 }
