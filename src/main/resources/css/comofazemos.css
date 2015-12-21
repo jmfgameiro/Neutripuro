@@ -1,0 +1,22 @@
+/***************************************************************************/
+/*                                                                         */
+/*            CSS File responsible for the water drop element.             */
+/*                                                                         */
+/***************************************************************************/
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.featurette {
+	display: flex;
+    align-items: center;
+}
+.featurette-heading {
+	margin-top: 60px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+.featurette-last {
+	margin-bottom: -30px;
+}
+

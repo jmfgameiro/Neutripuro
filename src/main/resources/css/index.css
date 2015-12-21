@@ -15,12 +15,6 @@
 	min-height: 230px;
 	background-color: #90B438;
 }
-.home .homeDesktop {
-    display: none;
-}
-.home .homeMobile {
-    display: block;
-}
 
 .home .logo {
 	width: 100px;
@@ -42,18 +36,10 @@
 .home .link {
     height: 50px;
 }
-.home .left {
-    float: right;
-}
-.home .right {
-    float: left;
-}
 
 
 .home .footer {
-	display: block;
-    margin-top: 10px;
-	margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 
@@ -65,10 +51,13 @@
 		width: 200px;
 		height: 200px;
 	}
-    .home .homeDesktop {
-        display: block;
-    }
-    .home .homeMobile {
-        display: none;
-    }
+}
+
+@media( min-width: 750px ) {
+}
+
+@media( min-width: 992px ) {
+	.home .col-md-2 {
+		width: 20% !important;
+	}
 }
