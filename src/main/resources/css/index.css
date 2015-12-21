@@ -77,9 +77,6 @@
 	}
 }
 
-@media( min-width: 750px ) {
-}
-
 @media( min-width: 992px ) {
 	.home .col-md-2 {
 		width: 20% !important;
