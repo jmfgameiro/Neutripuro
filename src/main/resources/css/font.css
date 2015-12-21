@@ -12,6 +12,9 @@
 .name-green {
 	color: #13A16F;
 }
+.home a:hover {
+    color: #13A16F;
+}
 .name {
 	display: block;
 	font-size: 60px;

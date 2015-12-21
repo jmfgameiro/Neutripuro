@@ -11,9 +11,7 @@
     align-items: center;
 	text-align: center;
 	color: #FFFFFF;
-	min-width: 260px;
-	min-height: 230px;
-	background-color: #90B438;
+	background-color: #A1D12E;/* 90B438 */
 }
 
 .home .logo {
@@ -33,10 +31,36 @@
     width: 17.5px;
 	height: 26.25px;
 }
-.home .link {
-    height: 50px;
+.home a {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transform: translateZ( 0 );
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transform: translateZ( 0 );
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.home a:hover {
+    -webkit-transform: scale( 1.1 );
+    transform: scale( 1.1 );
 }
 
+.home path, circle {
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+}
+
+.home a:hover path {
+    fill: #13A16F;
+    stroke: #13A16F;
+}
+.home a:hover circle {
+    fill: #13A16F;
+    stroke: #13A16F;
+}
 
 .home .footer {
     margin-top: 20px;

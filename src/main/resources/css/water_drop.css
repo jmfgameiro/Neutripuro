@@ -88,9 +88,9 @@
 -------------------------------------------------- */
 @keyframes drop {
 	  0% { transform: scale3d( 0.01, 0.01, 0.01 ) translateY( 0 ) }
-	 10% { transform: scale3d( 1, 1, 1) }
-	 44% { transform: scale3d( 1, 1, 1) translateY( 200px ) }
-	100% { transform: scale3d( 1, 1, 1) translateY( 200px ) }
+	 10% { transform: scale3d( 1, 1, 1 ) }
+	 44% { transform: scale3d( 1, 1, 1 ) translateY( 200px ) }
+	100% { transform: scale3d( 1, 1, 1 ) translateY( 200px ) }
 }
 @keyframes fade-in-out {
 	  0% { opacity: 0 }
