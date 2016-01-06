@@ -19,6 +19,9 @@
 .featurette-last {
 	margin-bottom: -30px;
 }
+img {
+    max-width: 200px;
+}
 
 
 /* RESPONSIVE CSS
@@ -31,10 +34,16 @@
 		margin-top: 90px;
 		font-size: 50px;
 	}
+    img {
+        max-width: 400px;
+    }
 }
 @media( min-width: 992px ) {
 	.carousel {
 		margin-top: 60px;
 	}
+    img {
+        max-width: 400px;
+    }
 }
 
