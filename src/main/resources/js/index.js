@@ -4,7 +4,7 @@
 /*                                                                         */
 /***************************************************************************/
 
-function home_height() {
+function body_load() {
     $( '#footerYear' ).text( new Date().getFullYear() );
     
     var v_height = $( window ).height();

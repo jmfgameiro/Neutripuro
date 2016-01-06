@@ -4,14 +4,13 @@
 /*                                                                         */
 /***************************************************************************/
 
-$( function() {
-	$( '#ondeestamos' ).css({ height: $( window ).innerHeight() - 50 });
-	$( window ).resize( function() {
-		$( '#ondeestamos' ).css({ height: $( window ).innerHeight() - 50 });
-	});
-    
-    
+function body_load() {
     $( '#footerYear' ).text( new Date().getFullYear() );
+    $( '#ondeestamos' ).css({ height: $( window ).innerHeight() - 50 });
+}
+
+$( window ).resize( function() {
+    $( '#ondeestamos' ).css({ height: $( window ).innerHeight() - 50 });
 });
 
 function initialize() {
