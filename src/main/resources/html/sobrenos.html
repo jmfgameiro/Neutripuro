@@ -3,7 +3,11 @@
 	<head>
         <title>Neutripuro - Lavandaria Industrial</title>
 		<meta charset="utf-8">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+            $( function(){
+                $( "#navbarIncluded" ).load( "navbar.html" ); 
+            } );
+        </script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="/js/quemsomos.js"></script>
         <script src="/js/googleanalytics.js"></script>
@@ -15,34 +19,13 @@
 	<body onload="body_load();">
         <!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/"><img src="/images/logo.jpg" class="navbar-logo" /></a>
-					<a class="navbar-brand" href="/"><font class="name-black">Neutri</font><font class="name-green">puro</font></a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="/quemsomos.html">Quem somos</a></li>
-						<li><a href="/oquefazemos.html">O que fazemos</a></li>
-                        <li><a href="/comofazemos.html">Como fazemos</a></li>
-						<li><a href="/ondeestamos.html">Onde estamos</a></li>
-                        <li><a href="/contatos.html">Contatos</a></li>
-					</ul>
-				</div>
-			</div>
+			<div id="navbarIncluded" class="container"></div>
 		</nav>
-        <!-- QUEM SOMOS -->
-		<div id="quemsomos" class="container-fluid featurette">
+        <!-- SOBRE NOS -->
+		<div id="sobrenos" class="container-fluid featurette">
 			<div class="row">
 				<div class="col-xs-12 col-md-7">
-					<h2 class="featurette-heading">Quem somos</h2>
+					<h2 class="featurette-heading">Sobre nós</h2>
 					<p class="lead">Neutripuro é uma empresa que nasceu no ano de 2009, em Caldas da Rainha, e que ano após ano tem-se vindo a equipar para grandes desafios a longo prazo.</p>
                     <p class="lead">A reconhecida dedicação pela sua qualidade comprovada, Know-how (conhecimento) e disponibilidade tem vindo a ser demonstrada por parte de importantes cadeias de hotéis de grande prestígio internacional.</p>
                     <p class="lead">A nossa equipa de profissionais está preparada para responder às exigências e necessidades do mercado.</p>
