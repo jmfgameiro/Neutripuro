@@ -3,24 +3,26 @@
 	<head>
         <title>Neutripuro - Lavandaria Industrial</title>
 		<meta charset="utf-8">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-            $( function(){
-                $( "#navbarIncluded" ).load( "/navbar.html" ); 
-            } );
-        </script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="/js/quemsomos.js"></script>
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- BOOTSTRAP -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- ANALYTICS -->
         <script src="/js/googleanalytics.js"></script>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- FONT -->
         <link href="/css/font.css" rel="stylesheet"/>
+        <!-- NAV BAR -->
+        <link href="/navbar.html" id="navbar-file" rel="import"/>
         <link href="/css/nav_bar.css" rel="stylesheet"/>
-        <link href="/css/quemsomos.css" rel="stylesheet"/>
+        <script src="/js/navbar.js"></script>
+        <!-- PAGE -->
+        <link href="/css/sobrenos.css" rel="stylesheet"/>
+        <script src="/js/sobrenos.js"></script>
 	</head>
 	<body onload="body_load();">
         <!-- NAVBAR -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div id="navbarIncluded" class="container"></div>
-		</nav>
+		<nav id="navbarIncluded" class="navbar navbar-default navbar-fixed-top"></nav>
         <!-- SOBRE NOS -->
 		<div id="sobrenos" class="container-fluid featurette">
 			<div class="row">
