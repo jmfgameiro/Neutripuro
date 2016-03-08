@@ -22,10 +22,6 @@
     display: block;
     width: 100%;
     text-align: center;
-    -webkit-background-size: 100% 75%; /*cover*/
-    -moz-background-size: 100% 75%; /*cover*/
-    background-size: 100% 75%; /*cover*/
-    -o-background-size: 100% 75%; /*cover*/
 }
 .headline {
     padding: 120px 0;
