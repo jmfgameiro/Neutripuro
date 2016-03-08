@@ -19,4 +19,20 @@
 .featurette-last {
 	margin-bottom: -30px;
 }
+#map-container {
+	width: 200px;
+	height: 200px;
+}
 
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media( min-width: 768px ) {
+	.featurette-heading {
+		margin-top: 90px;
+		font-size: 50px;
+	}
+    #map-container {
+		width: 400px;
+		height: 400px;
+	}
+}
