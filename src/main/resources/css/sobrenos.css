@@ -20,7 +20,7 @@
 	margin-bottom: -30px;
 }
 img {
-    max-width: 200px;
+    max-width: 200px !important;
 }
 
 
@@ -35,15 +35,12 @@ img {
 		font-size: 50px;
 	}
     img {
-        max-width: 400px;
+        max-width: 400px !important;
     }
 }
 @media( min-width: 992px ) {
 	.carousel {
 		margin-top: 60px;
 	}
-    img {
-        max-width: 400px;
-    }
 }
 
