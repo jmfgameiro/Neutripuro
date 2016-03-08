@@ -25,6 +25,44 @@
 		<nav id="navbarIncluded" class="navbar navbar-default navbar-fixed-top"></nav>
         <!-- CONTATOS -->
 		<div id="contatos" class="container-fluid featurette">
+            <div class="col-xs-12 col-md-7">
+                <form role="form" method="post" action="/php/email.php">
+                    <div class="well well-sm"><strong><i class="glyphicon glyphicon-ok form-control-feedback"></i> Campos Obrigatórios</strong></div>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Insira o seu nome"  value="<?php echo htmlspecialchars( $_POST[ 'name' ] ); ?>" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            <?php echo "<p class='text-danger'>$errName</p>";?>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Insira o seu email" value="<?php echo htmlspecialchars( $_POST[ 'email' ] ); ?>" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <div class="input-group">
+                            <textarea name="message" id="message" class="form-control" rows="5" required><?php echo htmlspecialchars( $_POST[ 'message' ] ); ?></textarea>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            <?php echo "<p class='text-danger'>$errMessage</p>";?>
+                        </div>
+                    </div>
+                    <!-- TODO: ADICIONAR CAPTCHA AQUI -->
+                    <input type="submit" name="submit" id="submit" value="Enviar" class="btn btn-info pull-right">
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <?php echo $result; ?>    
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-5">
+            </div>
 		</div>
         <div class="container footer"><p>&copy; Neutripuro <span id="footerYear" /></p></div>
 	</body>
