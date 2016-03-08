@@ -101,6 +101,11 @@ h1.descriptor {
     content: "\e080";
 }
 
+/*****  *****/
+.icon::before {
+    text-decoration: none;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
