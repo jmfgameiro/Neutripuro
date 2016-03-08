@@ -102,7 +102,7 @@ h1.descriptor {
 }
 
 /*****  *****/
-.icon::before {
+.icon:before {
     text-decoration: none;
 }
 
