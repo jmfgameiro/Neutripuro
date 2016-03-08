@@ -6,12 +6,14 @@
 
 function body_load() {
     $( '#footerYear' ).text( new Date().getFullYear() );
-    $( '#sobrenos' ).css( { height: $( window ).innerHeight() - $( '#navbarIncluded' ).height() } );
-    $( '.featurette-divider' ).css( 'margin-top': $( '#navbarIncluded' ).height() );
+    var navbarHeight = $( '#navbarIncluded' ).height();
+    $( '#sobrenos' ).css( { height: $( window ).innerHeight() - navbarHeight } );
+    $( '.featurette-divider' ).css( 'margin-top': '' + navbarHeight + 'px' );
 }
 
 $( window ).resize( function() {
-    $( '#sobrenos' ).css( { height: $( window ).innerHeight() - $( '#navbarIncluded' ).height() } );
-    $( '.featurette-divider' ).css( 'margin-top': $( '#navbarIncluded' ).height() );
+    var navbarHeight = $( '#navbarIncluded' ).height();
+    $( '#sobrenos' ).css( { height: $( window ).innerHeight() - navbarHeight } );
+    $( '.featurette-divider' ).css( 'margin-top': '' + navbarHeight + 'px' );
 });
 
