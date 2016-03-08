@@ -6,6 +6,9 @@
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
+.header-image {
+    background: url( '/images/contatos.jpg' ) no-repeat center center scroll;
+}
 #map-container {
 	width: 200px;
 	height: 200px;

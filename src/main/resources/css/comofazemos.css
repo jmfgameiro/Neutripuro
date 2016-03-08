@@ -6,7 +6,9 @@
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
+.header-image {
+    background: url( '/images/comofazemos.jpg' ) no-repeat center center scroll;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
