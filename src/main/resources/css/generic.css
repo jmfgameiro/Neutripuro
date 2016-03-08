@@ -29,11 +29,11 @@ h1.descriptor {
     color: white;
 }
 
-ul {
+.row ul {
     list-style: none;
     padding: 0;
 }
-li:before {
+.row li:before {
     position: relative;
     top: 1px;
     display: inline-block;
