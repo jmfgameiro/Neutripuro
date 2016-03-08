@@ -7,7 +7,7 @@
 /* MARKETING CONTENT
 -------------------------------------------------- */
 .featurette {
-	display: flex;
+	/*display: flex;*/
     align-items: center;
 }
 .featurette-heading {
@@ -15,6 +15,9 @@
 	font-weight: 300;
 	line-height: 1;
 	letter-spacing: -1px;
+}
+.featurette-divider {
+    margin: 30px 0;
 }
 .featurette-last {
 	margin-bottom: -30px;
