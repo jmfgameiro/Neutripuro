@@ -11,3 +11,6 @@
 	height: 25px;
 	margin-top: -3px;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
