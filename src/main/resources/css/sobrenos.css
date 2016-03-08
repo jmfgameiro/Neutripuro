@@ -4,10 +4,13 @@
 /*                                                                         */
 /***************************************************************************/
 
-/* MARKETING CONTENT
+/* CONTENT
 -------------------------------------------------- */
 img {
     max-width: 200px !important;
+}
+.header-image {
+    background: url( '/images/sobrenos.jpg' ) no-repeat center center scroll;
 }
 
 

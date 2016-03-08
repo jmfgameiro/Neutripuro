@@ -4,6 +4,43 @@
 /*            colors, sizes, among others are defined                      */
 /*                                                                         */
 /***************************************************************************/
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-logo {
+	width: 25px;
+	height: 25px;
+	margin-top: -3px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* HEADER IMAGE
+-------------------------------------------------- */
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.headline {
+    padding: 120px 0;
+}
+.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 .featurette {
