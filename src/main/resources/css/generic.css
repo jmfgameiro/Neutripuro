@@ -121,6 +121,25 @@ h1.descriptor {
     }
 }
 
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+    .headline h1 {
+        font-size: 60px;
+    }
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+    .headline h2 {
+        font-size: 32px;
+    }
+}
 @media( min-width: 750px ) {
     .featurette {
         width: 750px;
@@ -144,6 +163,12 @@ h1.descriptor {
     .featurette {
         width: 970px;
     }
+    .headline h1 {
+        font-size: 105px;
+    }
+    .headline h2 {
+        font-size: 50px;
+    }
 }
 @media( min-width: 1200px ) {
     .featurette {
@@ -152,16 +177,11 @@ h1.descriptor {
     .font-link {
         font-size: 23px;
     }
+    .headline h1 {
+        font-size: 140px;
+    }
+    .headline h2 {
+        font-size: 63px;
+    }
 }
-
-
-@media( min-width: 768px ) {
-    
-    #map-container {
-		width: 400px;
-		height: 400px;
-	}
-}
-
-
 
