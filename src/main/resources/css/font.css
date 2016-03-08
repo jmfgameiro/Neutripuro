@@ -20,7 +20,7 @@
 	font-size: 50px;
 	font-weight: bold;
 }
-h1 {
+h1.descriptor {
     margin-top: 10px;
 	font-size: 28px;
 }
@@ -36,7 +36,7 @@ h1 {
     .name {
 	   font-size: 60px;
     }
-    h1 {
+    h1.descriptor {
 	   font-size: 32px;
     }
     .font-link {
@@ -48,7 +48,7 @@ h1 {
     .name {
 	   font-size: 62px;
     }
-    h1 {
+    h1.descriptor {
 	   font-size: 36px;
     }
     .font-link {
