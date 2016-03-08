@@ -33,12 +33,12 @@ img {
     .featurette {
         width: 750px;
     }
-	.carousel {
-		margin-top: 30px;
-	}
-	.featurette-heading {
+    .featurette-heading {
 		margin-top: 90px;
 		font-size: 50px;
+	}
+	.carousel {
+		margin-top: 30px;
 	}
     img {
         max-width: 400px !important;
