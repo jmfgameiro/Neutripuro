@@ -25,6 +25,9 @@
 img {
     max-width: 200px !important;
 }
+.footer {
+    margin-top: 20px;
+}
 
 
 /* RESPONSIVE CSS
