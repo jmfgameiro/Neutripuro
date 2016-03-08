@@ -6,18 +6,6 @@
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-.featurette {
-    align-items: center;
-}
-.featurette-heading {
-	margin-top: 60px;
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-.featurette-last {
-	margin-bottom: -30px;
-}
 #map-container {
 	width: 200px;
 	height: 200px;
@@ -26,12 +14,13 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media( min-width: 768px ) {
-	.featurette-heading {
-		margin-top: 90px;
-		font-size: 50px;
-	}
     #map-container {
 		width: 400px;
 		height: 400px;
 	}
 }
+@media( min-width: 992px ) {
+}
+@media( min-width: 1200px ) {
+}
+

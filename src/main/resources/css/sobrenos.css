@@ -6,42 +6,14 @@
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-.featurette {
-    align-items: center;
-}
-.featurette-heading {
-	margin-top: 60px;
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-.featurette-divider {
-    margin: 30px 0;
-}
-.featurette-last {
-	margin-bottom: -30px;
-}
-.featurette-value {
-    text-align: center;
-}
 img {
     max-width: 200px !important;
-}
-.footer {
-    margin-top: 20px;
 }
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media( min-width: 768px ) {
-    .featurette {
-        width: 750px;
-    }
-    .featurette-heading {
-		margin-top: 90px;
-		font-size: 50px;
-	}
 	.carousel {
 		margin-top: 30px;
 	}
@@ -50,15 +22,9 @@ img {
     }
 }
 @media( min-width: 992px ) {
-    .featurette {
-        width: 970px;
-    }
 	.carousel {
 		margin-top: 60px;
 	}
 }
 @media( min-width: 1200px ) {
-    .featurette {
-        width: 1170px;
-    }
 }
