@@ -7,7 +7,7 @@
 /* MARKETING CONTENT
 -------------------------------------------------- */
 .featurette {
-	display: flex;
+	/*display: flex;*/
     align-items: center;
 }
 .featurette-heading {
@@ -30,6 +30,9 @@ img {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media( min-width: 768px ) {
+    .featurette {
+        width: 750px;
+    }
 	.carousel {
 		margin-top: 30px;
 	}
@@ -42,8 +45,15 @@ img {
     }
 }
 @media( min-width: 992px ) {
+    .featurette {
+        width: 970px;
+    }
 	.carousel {
 		margin-top: 60px;
 	}
 }
-
+@media( min-width: 1200px ) {
+    .featurette {
+        width: 1170px;
+    }
+}
