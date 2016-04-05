@@ -1,1 +1,0 @@
-web: java -Ddw.server.connector.port=8080 -cp build/install/lib/*;. pt.neutripuro.NeutripuroApplication

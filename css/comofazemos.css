@@ -1,0 +1,21 @@
+/***************************************************************************/
+/*                                                                         */
+/*            CSS File responsible for the water drop element.             */
+/*                                                                         */
+/***************************************************************************/
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.header-image {
+    background: url( '/images/comofazemos.jpg' ) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+

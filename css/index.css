@@ -1,0 +1,60 @@
+/***************************************************************************/
+/*                                                                         */
+/*            CSS File responsible for the water drop element.             */
+/*                                                                         */
+/***************************************************************************/
+
+
+/* HOME CONTENT
+-------------------------------------------------- */
+#home {
+    min-height: 100%;
+    height: 100%;
+}
+.home {
+	display: flex;
+    align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #A1D12E;/* 90B438 */
+}
+.home .content {
+    padding-top: 30px;
+}
+.home .contentLink {
+     padding-top: 100px;
+}
+.home a {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transform: translateZ( 0 );
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transform: translateZ( 0 );
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.home a:hover {
+    -webkit-transform: scale( 1.1 );
+    transform: scale( 1.1 );
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media screen and ( orientation: landscape ) {
+    .home .content .col-md-2 { width: 20%; }
+}
+@media screen and ( orientation: portrait ) and ( min-width: 768px ) {
+    .home .content .first { width: 19%; }
+    .home .content .second { width: 22%; }
+    .home .content .third { width: 21%; }
+    .home .content .fourth { width: 19%; }
+    .home .content .fifth { width: 19%; }
+}
+@media screen and ( orientation: portrait ) and ( max-width: 768px ) {
+    .home .content .first { margin-top: -30px; }
+}
+

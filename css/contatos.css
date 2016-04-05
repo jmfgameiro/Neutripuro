@@ -1,0 +1,39 @@
+/***************************************************************************/
+/*                                                                         */
+/*            CSS File responsible for the water drop element.             */
+/*                                                                         */
+/***************************************************************************/
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.header-image {
+    background: url( '/images/contatos.jpg' ) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#map-container {
+	width: 200px;
+	height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#message_success { display: none; }
+#message_warning { display: none; }
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media( min-width: 768px ) {
+    #map-container {
+		width: 400px;
+		height: 400px;
+	}
+}
+@media( min-width: 992px ) {
+    #ondeestamos { display: none; }
+}
+
