@@ -18,10 +18,10 @@
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media( min-width: 768px ) {
+@media (min-width: 768px) {
 	.embed-responsive { margin-top: 30px; }
 }
-@media( min-width: 992px ) {
+@media (min-width: 992px) {
 	.embed-responsive { margin-top: 60px; }
 }
 

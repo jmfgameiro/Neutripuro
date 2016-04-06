@@ -27,13 +27,13 @@
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media( min-width: 768px ) {
+@media (min-width: 768px) {
     #map-container {
 		width: 400px;
 		height: 400px;
 	}
 }
-@media( min-width: 992px ) {
+@media (min-width: 992px) {
     #ondeestamos { display: none; }
 }
 

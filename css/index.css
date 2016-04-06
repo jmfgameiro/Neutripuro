@@ -31,6 +31,9 @@
     -webkit-backface-visibility: hidden;
     -webkit-transition-duration: 0.3s;
     -webkit-transition-property: transform;
+    -moz-transform: translateZ( 0 );
+    -o-transition-duration: 0.3s;
+    -o-transition-property: transform;
     transform: translateZ( 0 );
     backface-visibility: hidden;
     transition-duration: 0.3s;
@@ -38,23 +41,24 @@
 }
 .home a:hover {
     -webkit-transform: scale( 1.1 );
+    -ms-transform: scale( 1.1 );
     transform: scale( 1.1 );
 }
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media screen and ( orientation: landscape ) {
+@media screen and (orientation: landscape) {
     .home .content .col-md-2 { width: 20%; }
 }
-@media screen and ( orientation: portrait ) and ( min-width: 768px ) {
+@media screen and (orientation: portrait) and (min-width: 768px) {
     .home .content .first { width: 19%; }
     .home .content .second { width: 22%; }
     .home .content .third { width: 21%; }
     .home .content .fourth { width: 19%; }
     .home .content .fifth { width: 19%; }
 }
-@media screen and ( orientation: portrait ) and ( max-width: 768px ) {
+@media screen and (orientation: portrait) and (max-width: 768px) {
     .home .content .first { margin-top: -30px; }
 }
 

@@ -6,9 +6,9 @@
 
 
 function bodyLoad() {
-    $( '#footerYear' ).text( new Date().getFullYear() );
+    $('#footerYear').text(new Date().getFullYear());
 }
-$( function() {
-    $( '#navbarIncluded' ).load( "/global/navbar.html" );
-} );
+$(function () {
+    $('#navbarIncluded').load("/global/navbar.html");
+});
 
