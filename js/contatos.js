@@ -9,19 +9,19 @@
 function initialize() {
 	//
 	var position = new google.maps.LatLng(39.426260, -9.161524),
-	    positionA8 = new google.maps.LatLng(39.419033, -9.152726),
+        positionA8 = new google.maps.LatLng(39.419033, -9.152726),
 	
 	//
-	    mapOptions = {
+        mapOptions = {
 			center: position,
 			zoom: 14,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
-	    },
-	    map = new google.maps.Map(document.getElementById("map-container"), mapOptions),
+        },
+        map = new google.maps.Map(document.getElementById("map-container"), mapOptions),
 	
 	//
-	    marker = new google.maps.Marker({ position: position, map: map, title: "Neutripuro", label: "Neutripuro" }),
-	    bounds = new google.maps.LatLngBounds();
+        marker = new google.maps.Marker({ position: position, map: map, title: "Neutripuro", label: "Neutripuro" }),
+        bounds = new google.maps.LatLngBounds();
     
     //
 	bounds.extend(position);
@@ -34,7 +34,7 @@ google.maps.event.addDomListener(window, "load", initialize);
 
 /***** E-MAIL *****/
 $(document).ready(function () {
-    $('#contact_form').bootstrapValidator({
+    $("#contact_form").bootstrapValidator({
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
         feedbackIcons: {
             valid: "glyphicon glyphicon-ok",
