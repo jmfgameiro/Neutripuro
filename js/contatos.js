@@ -20,8 +20,7 @@ function initialize() {
         map = new google.maps.Map(document.getElementById("map-container"), mapOptions),
 	
 	//
-        markerProperties = { position: position, map: map, title: "Neutripuro", label: "Neutripuro" },
-        marker = new google.maps.Marker(markerProperties),
+        marker = new google.maps.Marker({ position: position, map: map, title: "Neutripuro", label: "Neutripuro" }),
         bounds = new google.maps.LatLngBounds();
     
     //

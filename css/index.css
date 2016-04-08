@@ -29,6 +29,7 @@
     text-decoration: none;
     -webkit-transform: translateZ( 0 );
     -moz-transform: translateZ( 0 );
+    -ms-transform: translateZ( 0 );
     transform: translateZ( 0 );
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
@@ -45,6 +46,7 @@
 .home a:hover {
     -webkit-transform: scale( 1.1 );
     -moz-transform: scale( 1.1 );
+    -ms-transform: scale( 1.1 );
     transform: scale( 1.1 );
 }
 
