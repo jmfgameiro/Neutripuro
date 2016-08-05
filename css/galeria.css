@@ -7,15 +7,43 @@
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
+
 .header-image {
-    background: url( '/images/comofazemos.jpg' ) no-repeat center center scroll;
+    background: url('/images/comofazemos.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.img-hidden {
+    display: none;
+}
+
+.modalButtonsDiv {
+    position: absolute;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+#galeriaModalImage {
+    max-width: 370px;
+}
+
+@media( min-width: 786px) {
+    #galeriaModalImage {
+        max-width: 570px;
+    }
+}
+
+#galeriaModalImage {
+    max-height: 300px;
+}
+
+@media( min-height: 786px) {
+    #galeriaModalImage {
+        max-height: 500px;
+    }
+}
